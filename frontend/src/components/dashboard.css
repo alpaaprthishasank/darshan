@@ -1,0 +1,78 @@
+.admin-dashboard {
+    font-family: sans-serif;
+  }
+  
+  .dashboard-header {
+    background-color: #007bff; /* Blue header */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: white; 
+  }
+  
+  .buttons-container {
+    display: flex;
+  }
+  
+  .buttons-container button {
+    background-color: transparent; 
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 10px; 
+    cursor: pointer;
+  }
+  
+  .buttons-container button.active { 
+    background-color: #0069d9; /* Darker blue */ 
+    border-radius: 5px; 
+  }
+  
+  .search-container {
+    display: flex;
+  }
+  
+  .search-container input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; 
+  }
+  
+  .search-container button {
+    background-color: #007bff; /* Blue search button */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0 5px 5px 0; 
+    cursor: pointer;
+  }
+  
+  .dashboard-content {
+    padding: 2rem;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  
+  .table-header {
+    background-color: #00FFFF; 
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f2f2f2; 
+  }
+  
+  .graph-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
